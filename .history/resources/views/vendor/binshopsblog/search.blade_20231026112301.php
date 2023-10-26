@@ -32,7 +32,7 @@
                                     'category_tree' => $categories,
                                     'name_chain' => $nameChain = ""
                                     ])
-                        @else
+                        @elsegit
                             <span>No Categories</span>
                         @endif
                     </ul>

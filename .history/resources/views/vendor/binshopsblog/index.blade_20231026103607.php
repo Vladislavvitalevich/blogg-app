@@ -62,10 +62,10 @@
                 <ul class="binshops-cat-hierarchy">
                     @if($categories)
                         @include("binshopsblog::partials._category_partial", [
-                                'category_tree' => $categories,
-                                'name_chain' => $nameChain = "",
-                                'routeWithoutLocale' => $routeWithoutLocale
-                                ])
+    'category_tree' => $categories,
+    'name_chain' => $nameChain = "",
+    'routeWithoutLocale' => $routeWithoutLocale
+    ])
                     @else
                         <span>No Categories</span>
                     @endif
